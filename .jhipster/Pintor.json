@@ -1,0 +1,38 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String",
+      "fieldValidateRules": ["minlength", "maxlength"],
+      "fieldValidateRulesMinlength": 0,
+      "fieldValidateRulesMaxlength": 20
+    },
+    {
+      "fieldName": "apellidos",
+      "fieldType": "String",
+      "fieldValidateRules": ["minlength", "maxlength"],
+      "fieldValidateRulesMinlength": 0,
+      "fieldValidateRulesMaxlength": 20
+    },
+    {
+      "fieldName": "sueldo",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "experiencia",
+      "fieldType": "Integer"
+    }
+  ],
+  "changelogDate": "20210202192557",
+  "dto": "no",
+  "searchEngine": "elasticsearch",
+  "service": "serviceClass",
+  "entityTableName": "pintor",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "pagination"
+}
